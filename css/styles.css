@@ -1,0 +1,48 @@
+html{
+    position:relative; 
+    min-height: 100%;
+}
+nav ul {
+    background-color: #333;
+    width: 100vw !important;
+    height: 44px;
+}
+li  {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #999
+
+}
+#current-page {
+    background-color: #999;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+}
+#footer-div {
+    position: relative;
+    flex: 1;
+    margin-top: 20px;
+}
+h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
